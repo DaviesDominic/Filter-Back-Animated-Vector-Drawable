@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <objectAnimator
+        android:duration="@integer/animationDuration"
+        android:interpolator="@anim/file_interpolator"
+        android:propertyName="scaleX"
+        android:valueFrom="1"
+        android:valueTo="0.30"
+        android:valueType="floatType" />
+
+    <objectAnimator
+        android:duration="@integer/animationDuration"
+        android:interpolator="@anim/file_interpolator"
+        android:propertyName="scaleY"
+        android:valueFrom="1"
+        android:valueTo="0.30"
+        android:valueType="floatType" />
+
+    <objectAnimator
+        android:duration="@integer/animationDuration"
+        android:interpolator="@anim/file_interpolator"
+        android:propertyName="translateX"
+        android:valueFrom="0"
+        android:valueTo="-4"
+        android:valueType="floatType" />
+
+    
+</set>

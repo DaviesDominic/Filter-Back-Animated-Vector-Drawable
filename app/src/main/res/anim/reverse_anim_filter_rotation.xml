@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <objectAnimator
+        android:duration="@integer/animationDuration"
+        android:interpolator="@anim/file_interpolator"
+        android:propertyName="rotation"
+        android:valueFrom="90"
+        android:valueTo="180"
+        android:valueType="floatType" />
+</set>

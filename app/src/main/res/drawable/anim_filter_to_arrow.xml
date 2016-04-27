@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/filter_svg">
+
+    <!--rotates entire svg-->
+    <target
+        android:name="filter_group"
+        android:animation="@anim/anim_filter_rotation" />
+
+    <!--rotates top and bottom segments-->
+    <target
+        android:name="slider_top"
+        android:animation="@anim/anim_slidertop_rotation" />
+
+    <target
+        android:name="slider_bottom"
+        android:animation="@anim/anim_sliderbottom_rotation" />
+
+    <!--scales the circles down and moves them along the line-->
+    <target
+        android:name="top_circle"
+        android:animation="@anim/anim_circletop_transition" />
+
+    <target
+        android:name="middle_circle"
+        android:animation="@anim/anim_circlemiddle_transition" />
+
+    <target
+        android:name="bottom_circle"
+        android:animation="@anim/anim_circlebottom_transition" />
+
+    <!--remove the circle path/border-->
+    <target
+        android:name="top_circle_path"
+        android:animation="@anim/anim_circlepath_transition" />
+
+    <target
+        android:name="middle_circle_path"
+        android:animation="@anim/anim_circlepath_transition" />
+
+    <target
+        android:name="bottom_circle_path"
+        android:animation="@anim/anim_circlepath_transition" />
+
+    <!--trims the line paths-->
+    <target
+        android:name="top_line"
+        android:animation="@anim/anim_linetop_transition" />
+
+    <target
+        android:name="middle_line"
+        android:animation="@anim/anim_linemiddle_transition" />
+
+    <target
+        android:name="bottom_line"
+        android:animation="@anim/anim_linebottom_transition" />
+
+</animated-vector>

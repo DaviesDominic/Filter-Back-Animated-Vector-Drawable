@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/filter_svg_reverse">
+
+    <target
+        android:name="filter_group"
+        android:animation="@anim/reverse_anim_filter_rotation" />
+
+    <target
+        android:name="slider_top"
+        android:animation="@anim/reverse_anim_slidertop_rotation" />
+
+    <target
+        android:name="slider_bottom"
+        android:animation="@anim/reverse_anim_sliderbottom_rotation" />
+
+    <target
+        android:name="top_circle"
+        android:animation="@anim/reverse_anim_circletop_transition" />
+
+    <target
+        android:name="middle_circle"
+        android:animation="@anim/reverse_anim_circlemiddle_transition" />
+
+    <target
+        android:name="bottom_circle"
+        android:animation="@anim/reverse_anim_circlebottom_transition" />
+
+    <target
+        android:name="top_circle_path"
+        android:animation="@anim/reverse_anim_circlepath_transition" />
+
+    <target
+        android:name="middle_circle_path"
+        android:animation="@anim/reverse_anim_circlepath_transition" />
+
+    <target
+        android:name="bottom_circle_path"
+        android:animation="@anim/reverse_anim_circlepath_transition" />
+
+    <target
+        android:name="top_line"
+        android:animation="@anim/reverse_anim_linetop_transition" />
+
+    <target
+        android:name="middle_line"
+        android:animation="@anim/reverse_anim_linemiddle_transition" />
+
+    <target
+        android:name="bottom_line"
+        android:animation="@anim/reverse_anim_linebottom_transition" />
+
+</animated-vector>

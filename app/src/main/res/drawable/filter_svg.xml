@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="30dp"
+    android:viewportWidth="30"
+    android:viewportHeight="30">
+
+    <group
+        android:name="filter_group"
+        android:translateX="4"
+        android:translateY="5"
+        android:pivotY="10"
+        android:pivotX="11">
+
+
+        <group
+            android:name="slider_top"
+            android:pivotY="10">
+
+            <path
+                android:name="top_line"
+                android:pathData="M22.0056811,3 L-2.84217094e-14,3"
+                android:strokeColor="@color/white"
+                android:strokeWidth="2"
+                android:strokeLineCap="round"/>
+
+            <group
+                android:name="top_circle"
+                android:pivotY="3">
+                <path
+                    android:name="top_circle_path"
+                    android:pathData="M17,0 C15.343146,2.99999924e-06 14,1.34278645 14,3.00000463 L14,3.00000463 C14,4.6568584 15.342782,6.00000386 17,6.00000386 L17,6.00000386 C18.656854,6.00000386 20,4.6572204 20,2.99999923 L20,2.99999923 C20,1.34314245 18.657218,-2.99999922e-06 17,0 L17,0 L17,0 Z"
+                    android:strokeColor="@color/indigo"
+                    android:fillColor="@color/white"
+                    android:strokeWidth="1" />
+            </group>
+
+        </group>
+
+
+
+        <path
+            android:name="middle_line"
+            android:pathData="M22.0056811,10 L-2.84217094e-14,10"
+            android:strokeColor="@color/white"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"/>
+
+        <group
+            android:name="middle_circle"
+            android:pivotY="10">
+            <path
+                android:name="middle_circle_path"
+                android:pathData="M5,7 C3.343146,7.000003 2,8.34278645 2,10.0000046 L2,10.0000046 C2,11.6568584 3.342782,13.0000039 5,13.0000039 L5,13.0000039 C6.656854,13.0000039 8,11.6572204 8,9.99999923 L8,9.99999923 C8,8.34314245 6.657218,6.999997 5,7 L5,7 L5,7 Z"
+                android:strokeColor="@color/indigo"
+                android:fillColor="@color/white"
+                android:strokeWidth="1" />
+        </group>
+
+
+
+        <group
+            android:name="slider_bottom"
+            android:pivotY="10">
+
+
+            <path
+                android:name="bottom_line"
+                android:pathData="M22.0056811,17 L-2.84217094e-14,17"
+                android:strokeColor="@color/white"
+                android:strokeWidth="2"
+                android:strokeLineCap="round"/>
+
+            <group
+                android:name="bottom_circle"
+                android:pivotY="17">
+                <path
+                    android:name="bottom_circle_path"
+                    android:pathData="M12,14 C10.343146,14.000003 9,15.3427865 9,17.0000046 L9,17.0000046 C9,18.6568584 10.342782,20.0000039 12,20.0000039 L12,20.0000039 C13.656854,20.0000039 15,18.6572204 15,16.9999992 L15,16.9999992 C15,15.3431425 13.657218,13.999997 12,14 L12,14 L12,14 Z"
+                    android:strokeColor="@color/indigo"
+                    android:fillColor="@color/white"
+                    android:strokeWidth="1" />
+            </group>
+
+
+        </group>
+
+
+    </group>
+
+</vector>
