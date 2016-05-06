@@ -32,9 +32,9 @@
             <group
                 android:name="top_circle"
                 android:pivotY="3"
-                android:scaleX="0.3"
-                android:scaleY="0.3"
-                android:translateX="-7">
+                android:scaleX="0.35"
+                android:scaleY="0.35"
+                android:translateX="-6">
 
                 <path
                     android:name="top_circle_path"
@@ -54,14 +54,16 @@
             android:pathData="M22.0056811,10 L-2.84217094e-14,10"
             android:strokeColor="@color/white"
             android:strokeWidth="2"
-            android:strokeLineCap="round"/>
+            android:strokeLineCap="round"
+            android:trimPathStart="0.2"
+            android:trimPathEnd="0.9"/>
 
         <group
             android:name="middle_circle"
             android:pivotY="10"
             android:scaleX="0.3"
             android:scaleY="0.3"
-            android:translateX="-2">
+            android:translateX="-1">
             <path
                 android:name="middle_circle_path"
                 android:pathData="M5,7 C3.343146,7.000003 2,8.34278645 2,10.0000046 L2,10.0000046 C2,11.6568584 3.342782,13.0000039 5,13.0000039 L5,13.0000039 C6.656854,13.0000039 8,11.6572204 8,9.99999923 L8,9.99999923 C8,8.34314245 6.657218,6.999997 5,7 L5,7 L5,7 Z"
@@ -93,7 +95,7 @@
                 android:pivotY="17"
                 android:scaleX="0.3"
                 android:scaleY="0.3"
-                android:translateX="-5">
+                android:translateX="-4">
                 <path
                     android:name="bottom_circle_path"
                     android:pathData="M12,14 C10.343146,14.000003 9,15.3427865 9,17.0000046 L9,17.0000046 C9,18.6568584 10.342782,20.0000039 12,20.0000039 L12,20.0000039 C13.656854,20.0000039 15,18.6572204 15,16.9999992 L15,16.9999992 C15,15.3431425 13.657218,13.999997 12,14 L12,14 L12,14 Z"
